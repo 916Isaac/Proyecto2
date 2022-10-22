@@ -1,0 +1,122 @@
+
+*{
+    
+}
+body{
+    background-image: url('img/fondo.png');
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: 100% 100%;
+       font:18px ;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       color: black;
+       min-height: 100px;
+       padding: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}
+.profile-card{
+    box-shadow: 0 18px 200px -60px black;  
+    border-radius: 40px;
+    width: 650px;
+    position: relative;
+    backdrop-filter:blur(15px);
+    border:px solid rgb(19, 212, 171);
+    padding: 3rem 5rem;
+    display: block;
+    flex-direction: colum;
+    gap:30px;
+}
+.img{
+    border-radius: 100px;
+    text-align: center;
+}
+.profile-img{
+    text-align: center;
+    
+}
+.blue{
+    border-radius: 5px;
+    border: 1px;
+    color: black;
+    border-style: solid;
+    
+}
+.black{
+    
+    border-radius: 5px;
+    border: 1px;
+    color: black;
+    border-style: solid;
+}
+.perpule{
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px;
+    color: black;
+    border-style: solid;
+}
+.red{
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px;
+    color: black;
+    border-style: solid;
+}
+.profile-card_actions{
+    text-align: center;
+    display: block;
+    background-color: rgb(110, 223, 161);
+    padding: 10px 0px;
+    border-radius: 20px;
+    margin: 0px 30px;
+    
+    box-shadow: 0 18px 200px -60px black;  
+    position: relative;
+}
+.profile-card_actions:hover{
+    background-color:rgb(0, 0, 0);
+    transition: 0.5s;
+
+}
+.profile-socials{
+    text-align: center;
+    gap:30px;
+    padding: 10px 0px;
+}
+.instagram{
+    padding: 0px 30px;
+    color: rgb(235, 15, 15);
+}
+.twitch{
+    padding: 0px;
+    padding-left: 30px;
+    color:purple
+}
+.github{
+    padding: 0px 30px;
+    color:black;
+}
+.twitter{
+    color: blue;
+    padding: 0px 30px;
+}
+.profile-card_info{
+    border: 0px solid black;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.profile-card-name{
+    border: 0px solid black;
+    margin-left: 4rem;
+}
+.profile-card-border{
+    border: 0px solid black;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: rgb(126, 190, 148);
+}
